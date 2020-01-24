@@ -7,10 +7,6 @@ countdown = 10
     puts "#{countdown}"
     countdown -= 1
   end
-
-  if countdown == 0
-    puts "HAPPY NEW YEAR!"
-  end
-  
+  return "HAPPY NEW YEAR!"
   
 end
